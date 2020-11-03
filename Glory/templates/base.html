@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            {% block title %}
+
+            {% endblock title %}
+        </title>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    </head>
+
+    <body link="#812782" vlink="#005e7c" alink="#EE82EE">
+        <nav>
+            <div class="float-left">
+                <div>
+                    <img height="100px"
+                          src="{% static 'img/Logo_Glory.png' %}"
+                          alt="logo">
+                </div>
+
+                {% block href %}
+                <div class="merg-left href-style">
+                    <a class="merg-left href-style" href="/">home</a>
+                    <a class="href-style" href="htmltrain">gallery</a>
+                </div>
+                {% endblock href %}
+            </div>
+        </nav>
+
+        <div class="container">
+            {% block content %}
+            {% endblock content %}
+        </div>
+
+        <div class="center">
+            {% block center %}
+            {% endblock center %}
+        </div>
+
+        <div class="form">
+            {% block form %}
+                <u>
+                    Для записи на приём заполните форму:
+                </u>
+                <p>
+                    Форма будет в следующей домашке)
+                </p>
+            {% endblock form %}
+        </div>
+
+        <footer>
+            Tallinn, 113670 kncih /14
+        </footer>
+
+    </body>
+
+</html>

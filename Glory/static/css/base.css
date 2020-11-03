@@ -1,0 +1,77 @@
+nav{
+    background: white;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 18px;
+    letter-spacing: .05em;
+}
+body {
+	background: repeating-radial-gradient(transparent 0, transparent 39%, #AFEEEE 40%, #AFEEEE 41%) center center/2em 2em, white;
+}
+.container{
+    background: linear-gradient(21deg, #dd03e450, #5611ec50);
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 250px 20px 2%;
+    padding: 10px;
+}
+.center{
+    margin: -450px 50px 50px 350px;
+    background: #005e7c20;
+    width: 50%;
+    min-height: 370px;
+    font-size: 48px;
+    color: #005e7c;
+    padding: 30px;
+    text-align: center;
+}
+footer{
+    background: PaleTurquoise;
+    color: CadetBlue;
+    height: 40px;
+    padding: 10px;
+    margin: 20px 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.merg-left{
+    padding: 55px 10px 20px 15px;
+}
+.href-style{
+    text-decoration: none;
+}
+.float-left > div{
+    float: left;
+    margin: 10px 10px;
+}
+.form{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    background: linear-gradient(21deg, #dd03e490, #5611ec90);
+    color: white;
+    height: 400px;
+    width: 200px;
+
+    padding: 200px 20px 20px 20px;
+    letter-spacing: .08em;
+}
+.image{
+    position: static;
+}
+#title{
+    font-size: 36px;
+    padding: 10px;
+}
+.text_24{
+    font-size: 24px;
+    padding: 20px;
+}

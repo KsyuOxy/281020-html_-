@@ -1,0 +1,22 @@
+div{
+    background-color: pink;
+    }
+.yellow-block{
+    background-color: yellow;
+
+    }
+.text-brown{
+    color: brown;
+    }
+#title{
+    font-size: 20px;
+    text-align: center;
+    }
+p{
+    background-color: lightblue;
+    font-family: Arial sana-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: green;
+    border: 1px solid blue;
+    }
